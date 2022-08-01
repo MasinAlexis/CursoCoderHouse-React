@@ -1,0 +1,31 @@
+Virtual DOM: Patron de comportamiento y react lo implementa en una tecnologia llamada Fiber
+Node.js:es un entorno de ejecucion de javascript que le permite al código en js ser ejecutado en nuestra computadora
+NPM: paquete manejadores de dependencias, instala módulos nuevos
+
+Sugar Sintaxis:
+Concatenacion no es una muy buena practica
+let texto = "CoderHouse"
+let parrafo = "Yo soy profesor en " + texto
+
+Esta manera es mejor:
+let parrafo =  `Yo soy profe en ${texto}`
+
+let parrafo = ` Yo soy ${mayorDeEdad ? 'mayor de edad' : 'menor de edad'}` Puedo meter if adentro
+
+let parrafo = ` Yo soy ${edad >= 18 ? 'mayor de edad' : 'menor de edad'}`
+                             if                      else
+
+Arrays
+
+let array1 = [1,2,3,4]
+let array2 = [...array1,5] Copia del primer array con un 5 agregado
+
+let array1 = [1,2,3,4]
+let array2 = [5,6,7]
+array completo = [...array1,...array2]
+
+rafse para completar en js la escructura de react
+Tips:
+    - Componentes React siempre con mayuscula en el app.js
+    - Se lo debe importar para poder usarlo
+
