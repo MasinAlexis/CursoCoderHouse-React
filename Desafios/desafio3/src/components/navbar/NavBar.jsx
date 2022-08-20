@@ -3,11 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import CartWidget from './CartWidget';
 
 export default function NavBar() {
   return (
     <Navbar sticky="top" bg="light" expand="lg">
         <Container fluid>
+            <CartWidget/>
             <Navbar.Brand href="#">MMSports</Navbar.Brand>
             <Navbar.Collapse id="navbarScroll">
             <Nav
