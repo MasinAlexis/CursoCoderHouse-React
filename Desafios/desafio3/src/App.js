@@ -7,7 +7,7 @@ function App() {
       <div className='container'>
         <NavBar/>
         <div>
-          <ItemListContainer props="Pasando datos desde greeting"/>
+          <ItemListContainer props="Datos pasados por parametros"/>
         </div>
       </div>
     );
