@@ -1,0 +1,30 @@
+[
+    {
+      "producto": "Remera",
+      "precio": 500,
+      "imagen":"https://media1.sistemacontinuo.com.ar/5289/remera-hombre-sublimable.jpg",
+      "unidades": 0,
+      "stock":8
+    },
+    {
+      "producto": "Musculosa",
+      "precio": 400,
+      "imagen":"https://media2.sistemacontinuo.com.ar/5295/musculosa-mujer-sublimable.jpg",
+      "unidades": 0,
+      "stock":5
+    },
+    {
+      "producto": "Camiseta",
+      "precio": 550,
+      "imagen":"https://tiendariver.vteximg.com.br/arquivos/ids/168463-1000-1000/GU9603_FR_Torso_Ecom.jpg?v=637572254211130000",
+      "unidades": 0,
+      "stock":15
+    },
+    {
+      "producto": "Medias",
+      "precio": 50,
+      "imagen":"https://saborstore.com/wp-content/uploads/2021/06/Medias-Sport-Verde-600x600.jpg",
+      "unidades": 0,
+      "stock":10
+    }
+]
