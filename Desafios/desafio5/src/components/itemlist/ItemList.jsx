@@ -1,15 +1,16 @@
 import React , {useEffect, useState} from 'react'
 import CardComponent from '../cards/CardComponent'
 import './itemlist.css' 
+import productos from '../../products.json'
 
-const ItemList = ({productos}) => {
-  const [prod , setProd] = useState(productos)
+const ItemList = () => {
+  const [prod , setProd] = useState([])
 
   useEffect(() => {
     const task = new Promise((resolve, rejected) => {
         setTimeout(() => {
-          resolve(prod)
-        }, 20000);
+          resolve(productos)
+        }, 2000);
     })
     task.then(resultado => setProd(resultado))
     return () => {
@@ -17,7 +18,7 @@ const ItemList = ({productos}) => {
   }, [])
   return (
     <div  className="cardsFields">
-        {productos.length < 1 ? <h1>Cargando Productos</h1> : productos.map((item) => (<CardComponent key={item.id} {...item}/>))}
+        {prod === [] ? <h1>Cargando Productos</h1> : prod.map((item) => (<CardComponent key={item.id} {...item}/>))}
     </div>
   )
 }
