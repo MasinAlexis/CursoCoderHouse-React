@@ -1,5 +1,0 @@
-https://desarrolloweb.com/articulos/1236.php
-
-https://developer.mozilla.org/es/docs/Web/API/HTMLElement/change_event
-
-npx create-react-app@latest . para crear en la carpeta actual
